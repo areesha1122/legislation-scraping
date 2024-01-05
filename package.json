@@ -1,0 +1,33 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrape acts information from http://www5.austlii.edu.au/",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "scraping",
+    "node js",
+    "web"
+  ],
+  "author": "blank.chip - blank@chip",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.2",
+    "chalk": "^5.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "objects-to-csv": "^1.3.6",
+    "pdfjs-dist": "^3.7.107",
+    "pg": "^8.11.0",
+    "read-excel-file": "^5.6.0",
+    "sequelize": "^6.32.1",
+    "xlsx": "^0.18.5"
+  }
+}
